@@ -1,0 +1,143 @@
+.logo img {
+    height: 100px;
+    width: auto;
+    
+
+}
+
+html {
+    scroll-behavior: smooth;
+}
+.logo p {
+    margin-left: 37em;
+    font-weight: 600;
+}
+
+.htmltekst img {
+    width: auto;
+    height: 100px;
+}
+
+.csstekst img {
+    width: auto;
+    height: 100px;
+}
+
+.wrapper {
+    display: table;
+    height: 100%;
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.main-page {
+    display: table-row;
+    height: 100%;
+    background-color: #f3f4f5;
+}
+
+body {
+    background-color: lightblue;
+    
+}
+
+.navbar{
+    box-shadow: 0 2px 2px 0px rgba(0,0,0,.3);
+    padding-right: 70px;
+   
+}
+hr.style14 { 
+    border: 0; 
+    height: 1px; 
+    background-image: -webkit-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+    background-image: -moz-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+    background-image: -ms-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+    background-image: -o-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0); 
+  }
+
+
+.navbar .navbar-nav {
+    color:white;
+    font-weight: 600;
+    
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color:white;
+}
+button, input {
+    margin: 7px;
+}
+.modal {
+    text-align: center;
+  }
+  
+  @media screen and (min-width: 768px) { 
+    .modal:before {
+      display: inline-block;
+      vertical-align: middle;
+      content: " ";
+      height: 100%;
+    }
+  }
+  
+  .modal-dialog {
+    display: inline-block;
+    text-align: left;
+    vertical-align: middle;
+  }
+    
+.navbar-brand {
+    margin-right: 0;
+}
+
+.ml-auto, .mx-auto {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.tutvustus  {
+    text-align:center;
+    margin-top: 3em;
+    margin-right: 5em;
+
+}
+
+
+.htmljcss {
+    display: flex;
+    justify-content: center;
+    ;
+    margin-top: 100px;
+}
+
+.csstekst {
+   margin-left: 250px;
+}
+
+footer {
+    
+    background-color: #007bff;
+
+}
+.footer {
+    padding: 25px 0 25px;
+    display: flex;
+    justify-content: space-between;
+    color:white;
+}
+
+.footer a {
+
+    color:white;
+}
+
+.kontaktivorm {
+    text-align: center;
+    
+}
+
+.slogan {
+    float:right;
+}

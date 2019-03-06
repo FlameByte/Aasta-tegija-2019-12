@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Aasta tegija</title>
+</head>
+
+<body>
+
+
+
+    <div class="wrapper">
+        <div class="main-page">
+            <div class="logo">
+                <img src="logohp.png" class="img-fluid" class="img-responsive" class="center">
+                <p id="foo" class="slogan"> Kutsekeskus on lahe</p>
+            </div>
+
+            <header>
+                <nav class="navbar navbar-expand-sm navbar-dark bg-primary ">
+                    <button class="navbar-toggler mr-2" type="button" data-toggle="collapse" data-target="#navbar5">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <span class="navbar-brand w-100"></span>
+                    <div class="navbar-collapse collapse w-100 justify-content-center" id="navbar5">
+                        <ul class="navbar-nav mx-auto smooth-scroll">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#tutvustus">Tutvustus</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    HTML
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                    <a class="dropdown-item" href="#html1">Viis teemat</a>
+                                    <a class="dropdown-item" href="#html1">Näited</a>
+                                    <a class="dropdown-item" href="#html1">Lisa materjali</a>
+                                    <a class="dropdown-item" href="#html1">Praktiline ülesanne</a>
+                                    <a class="dropdown-item" href="#html5">Kokkuvõtlik test</a>
+                                </div>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    CSS
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                    <a class="dropdown-item" href="#css1">Viis teemat</a>
+                                    <a class="dropdown-item" href="#css1">Näited</a>
+                                    <a class="dropdown-item" href="#css1">Lisa materjali</a>
+                                    <a class="dropdown-item" href="#css1">Praktiline ülesanne</a>
+                                    <a class="dropdown-item" href="#css5">Kokkuvõtlik test</a>
+                                </div>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#kontakt1">Kontakt</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="w-100">
+                    </div>
+                </nav>
+            </header>
+
+
+            <div class="container">
+                <div class="tutvustus" id="tutvustus">
+                    <h1>Tutvustus</h1>
+                    <p>Märgend - ja stiililehe keelte põhiteadmiste õpetamine ja kontrollimine veebikeskkonnas, mis on
+                        mõeldud Noorem Tarkvaraarendaja 1 kursuse ja IT süsteemi spetsialisti programmeerimise
+                        suunamooduli õpilastele.<br> Vajuta HTML või CSS ikooni peale, et saada lühitutvustust, mis need on.</p>
+                </div>
+
+                <div class="htmljcss">
+                    <div class="htmltekst" id="html1">
+                        
+                        <img src="html.png" data-toggle="modal" data-target="#myModal">
+
+                        <div class="modal" id="myModal">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+
+
+                                    <div class="modal-header">
+                                        <h4 class="modal-title">HTML</h4>
+                                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                    </div>
+
+
+                                    <div class="modal-body">
+                                        HTML on keel, milles märgendatakse veebilehti. HTML-dokumentide (failide)
+                                        veebist
+                                        allalaadimiseks ja vaatamiseks kasutatakse veebibrauserit.
+                                        Selline elektroonilise dokumendi märgendamise mõte on lahutada sisu, vaade jms
+                                        objekti
+                                        omadused üksteisest.
+
+                                        HTML paneb paika üksnes dokumendi struktuuri, kuid võimaldab veebiehele kaasata
+                                        skripte,
+                                        eeskätt JavaScripti ja CSS-i, millega kirjeldatakse lehe kujundus.
+                                    </div>
+
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="csstekst">
+                        
+                        <img src="css.png" data-toggle="modal" data-target="#myModal2">
+                        <div class="modal" id="myModal2">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+
+
+                                    <div class="modal-header">
+                                        <h4 class="modal-title">CSS</h4>
+                                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                    </div>
+
+
+                                    <div class="modal-body">
+                                        CSS (Cascadin Style Sheet) e. Kaskaadsed stiililehed. S.o. meetod mida
+                                        kasutatakse
+                                        veebilehtede toimetamisel. Stiilid määravad kindlaks mismoodi kuvatakse Html
+                                        elemendid. Kogu
+                                        veebisaidi kujundus on viidud ühte dokumenti ning selles dokumendis tehtud
+                                        muudatused
+                                        kajastuvad korraga üle terve saidi. Kasutades stiile, hoiad kokku oma aega.
+                                    </div>
+
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr class="style14">
+            <div class="container">
+                <div class="HTML">
+                    <h1>HTML</h1>
+                    <h1 id="html1">Kuidas kirjutada HTML koodi</h1>
+                    <p>Html koodi kirjutamiseks tuleb installeerida arvutisse kas visual studio code, brackets, sublime
+                        või mingi muu programm
+                        ja salvestada fail .html laiendiga. Näiteks salvesta fail index.html-ina</p>
+                    <p>Ülesanne: Installeerida üks koodi kirjutamis programm (sublime, brackets) ja salvestada fail
+                        html-ina.</p>
+                    <p> Lisa materjal: https://www.w3schools.com/html/html_intro.asp</p>
+                    <h1>Kuidas alustada HTML koodi kirjutamist</h1>
+                    <p>HTML dokumenti peab alati alustama &lt!DOCTYPE html&gt. edasi tuleb &lthtml&gt ja &lt/html&gt
+                        ning &ltbody&gt &lt/body&gt. h1-ga on millega kirjutatakse pealkirju, p-ga kirjutatakse
+                        paragrahve. Koodid algavad normaal kujuga nagu näiteks
+                        &lthtml&gt ja lõppeb &lt/html-iga&gt.<br>
+                        Näide &lt!DOCTYPE html&gt &lthtml&gt &ltbody&gt &lth1&gt pealkiri &lt/body&gt &lt/html&gt </p>
+                    <p>Ülesanne: Kirjutada loodud html faili html-i vajalikud koodid, panna pealkirjaks oma kursuse nimi
+                        ning selle alla paragrahv oma nimega.</p>
+                    <p> Lisa materjal: https://www.w3schools.com/html/html_basic.asp </p>
+                    <h1>Kuidas kuvada enda HTML koodi</h1>
+                    <p>Koodi on võimalik kuvada kui tõstad oma html faili enda brauserisse (google chrome, internet
+                        explorer jne). Samuti on võimalik
+                        ka kuvada internetis olevate veebilehekülgede koodi. Seda saab teha kui parem klickida lehele ja
+                        vajutada source code. </p>
+                    <p>Ülesanne: tõsta oma loodud fail brauserisse ja vaata, kas töötab.</p>
+                    <p> lisa materjal: https://www.w3schools.com/html/html_editors.asp</p>
+                    <h1>Kuidas muuta tausta värvi ja teksti värvi</h1>
+                    <p>Tausta värvi muutmiseks tuleb lisada &ltbody&gt sisse style="background-color:blue;" Lisades
+                        selle muudab tausta värvi siniseks. Sinise asemel on võimalik panna teisi värve.
+                        Teksti värvi muutmine on täpselt samamoodi, ainult et tuleb kirjutada color mitte
+                        background-color.
+                    </p>
+                    <p>Ülesanne: Muuda oma tausta ja teksti värve.</p>
+                    <p>Näide: &ltbody style="background-color: blue;"&gt &lt/body&gt</p>
+                    <p> Lisa materjal: https://www.w3schools.com/html/html_styles.asp</p>
+                    <h1>Kuidas kommenteerida oma koodi</h1>
+                    <p>Koodi kommenteerimiseks tuleb kirjutada nii &lt!-- kirjuta kommentaar --&gt</p>
+                    <p>Ülesanne: kommenteeri kõike, mida sa oled kirjutanud ja katsetanud</p>
+                    <p>Näide: &lt!----- &ltp&gt proovimine &lt/p&gt ------&gt</p>
+                    <p>Lisa materjal: https://www.w3schools.com/html/html_comments.asp</p>
+                    <h1 id="html5">Kokkuvõtlik test</h1>
+                    <p>Loo uus html fail, lisa html-i vajalikud koodid, sisesta oma nimi ja kursus ning muuda tausta ja
+                        teksti värv</p>
+
+                </div>
+            </div>
+            <hr class="style14">
+            <div class="container">
+                <div class="CSS">
+                    <h1>CSS</h1>
+                    <h1 id="css1">Kuidas sisestada CSS-i HTML-i koodi</h1>
+                    <p> Väline stiilileht
+                        Välise stiilis lehe abil saate muuta ühe veebilehe välimust, muutes vaid ühte faili!
+
+                        Iga lehekülg peab sisaldama viidet elementi &ltlink&gt välisele stiililehe failile. &ltlink&gt
+                        element liigub &lthead&gt sektsiooni:
+                        <br>
+                        &lthead&gt
+                        &ltlink rel="stylesheet" type="text/css" href="mystyle.css"&gt
+                        &lt/head&gt
+                    </p>
+                    <p>Ülesanne: Tee uus väline stiilileht ja link-i HTML-iga</p>
+                    <p>Lisa materjal: https://www.w3schools.com/css/css_howto.asp</p>
+                    <h1>Taustavärvi ja tekstivärvi lisamine CSS-is</h1>
+                    <p>Saad lisada tastavärvi HTML-i elementidele:</p>
+                    <p>&lth1 style="background-color:Blue;"> &lt/h1&gt</p>
+                    <p>Saad lisada tekstivärvi HTML-i elementidele:</p>
+                    <p>&lth1 style="color:Blue;"> &lt/h1&gt</p>
+                    <p>Ülesanne: Võta lahti oma notepad ja proovi tulemusi</p>
+                    <p>Lisa materjal: https://www.w3schools.com/css/css_colors.asp</p>
+                    <h1>Taustavärvi ja pildi lisamine tervele lehele</h1>
+                    <p>Kas lisada HTML-i &lthead&gt &lt/head&gt vahele või lisad eradi stiililehele:</p>
+                    <p>Taustavärvi lisamine: h1 {background-color: green;}</p>
+                    <p>Pildi lisamine: body {background-image: url("gradient_bg.png");}
+                        <p>Ülesanne: Proovi antud asju kas eraldi stiililehe peal või HTML-i &lthead&gt &lt/head&gt
+                            vahele ja pildi lisamisel proovi saada ta keskele</p>
+                        <p>Lisa materjal: https://www.w3schools.com/css/css_background.asp</p>
+                        <h1>Elemendi laiuse ja kõrguse muutmine kas protsentides või pikslites</h1>
+                        <p>div {height: 200px;width: 50%;background-color: powderblue;}</p>
+                        <p>Ülesanne: Proovi muuta elemendi kõrgust ja laiust. Tee pilti väiksemaks või kõrgemaks</p>
+                        <p>Lisa materjal: https://www.w3schools.com/css/css_background.asp</p>
+                        <h1>CSS-is padding ja margin-i lisamine</h1>
+                        <p>Padding on see ala, mis on elemendi piirjoone ja elemendi sisu vahel.</p>
+                        <p>Margin on ala väljaspool igat elementi, mis ei lase teistel elementidel enda ligi.</p>
+                        <p>div{background-color: grey;padding: 25px;margin: 25px;}</p>
+                        <p>Ülesanne: Vaata mis saab. Lisa tausavärv, muuda tema paddingut ja marginit</p>
+                        <p>Lisa materjal: https://www.w3schools.com/css/css_boxmodel.asp</p>
+                        <h1 id="css5">Kokkuvõtlik test</h1>
+                        <p>Loo uus stiilileht ja lisa taustavärv tervelehele, tekstile. Muuda ka sisu paddingut ja
+                            marginit</p>
+                </div>
+            </div>
+            <hr class="style14">
+            <div class="container">
+                <div class="kontaktivorm" id="kontakt1">
+                    <h1>Kontaktivorm</h1>
+                    <form action="kontakt.php" method="POST">
+                        <p>Teema</p> <input type="text" name="name" maxleength="50" required="required"
+                            oninvalid="this.setCustomValidity('Väli peab olema täidetud')"
+                            onchange="this.setCustomValidity('')">
+                        <p>E-mail</p> <input type="email" name="email" required="required">
+                        <p>Sõnum</p><textarea name="message" rows="6" cols="25" required="required"></textarea><br />
+                        <input type="submit" value="Saada" class="btn btn-info" class="nupp"><input type="reset"
+                            value="Puhasta" class="btn btn-info">
+                    </form>
+                </div>
+            </div>
+            <hr class="style14">
+            <div class="wrapper">
+                <div class="google-maps">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2093.6054081698644!2d26.711924716290397!3d58.3494581962371!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46eb3747db90ed05%3A0x387b666bb555e743!2sKopli+1%2C+50115+Tartu!5e0!3m2!1set!2see!4v1551784291724"
+                        width="100%" height="300px" frameborder="0" style="border:0" allowfullscreen></iframe>
+                </div>
+            </div>
+
+
+
+            <footer>
+                <div class="container">
+                    <div class="footer">
+                        <div class="aadress">
+                            <h1>Aadress</h1>
+
+                            <p>Tartu KHK</p>
+                            <p>Kopli 1, 50115 Tartu</p>
+                        </div>
+                        <div class="kontakt">
+                            <h1>Kontakt</h1>
+                            <p>E-post: info@khk.ee</p>
+                            <p>Telefon: 7 361 866</p>
+                        </div>
+                        <div class="lingid">
+                            <h1>Lingid</h1>
+                            <a href="osakond.ikt.khk.ee">http://osakond.ikt.khk.ee</a>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+    </div>
+    <script src="javascript.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
